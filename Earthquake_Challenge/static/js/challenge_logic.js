@@ -36,7 +36,7 @@ let baseMaps = {
   "Dark": dark
 };
 
-// 1. Add a 2nd and 3rd layer group for the tectonic plate data.
+// 1. Add layer groups for the tectonic plate, earthquake, and major earthquake data.
 let allEarthquakes = new L.LayerGroup();
 let tectonicPlates = new L.LayerGroup();
 let majorEQ = new L.LayerGroup();
