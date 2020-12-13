@@ -24,8 +24,8 @@ let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{
 
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
-  center: [40.7, -94.5],
-  zoom: 3,
+  center: [30.7, -34.5],
+  zoom: 2.5,
   layers: [streets]
 });
 
@@ -186,7 +186,6 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   // Then add all the details for the legend
   legend.onAdd = function () {
     let div = L.DomUtil.create("div", "info legend");
-
     const magnitudes = [0, 1, 2, 3, 4, 5];
     const colors = [
       "#98ee00",
@@ -218,7 +217,7 @@ d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/
 
   // Pass tectonic plate data to the geoJSON layer
   L.geoJSON(data, {
-    color: "yellow",
+    color: "orange",
     weight: 5
   }).addTo(tectonicPlates);
   tectonicPlates.addTo(map);
