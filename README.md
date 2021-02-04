@@ -24,11 +24,11 @@ Software:
 
 The global earthquakes and tectonic plates analysis produced a visually intuitive story about the magnitudes of seismic activity around the globe in a week's time.  It also provided a useful display for comparing the tectonic plate geography with the earthquake data.  By incorparting leaflet, Mapbox, and JavaScript, users are able to interact with the data to toggle on and off map styles and/or the given data overlays. As can be seen at the top right corner of the map images displayed below, the toggling is simple and labeled.  Here, we see the default map display.  The circle size and color correspond to the magnitude of the earthquake.  On the bottom-right corner we see a leged as well.
 
-![](Earthquake_Challenge/Resources/mapyep.png)
+![](Resources/mapyep.png)
 
 As another example, here is a toggled version which includes a different mapbox map style, in this case "dark", onto which only the tectonic plate option is selected.  Of course, the given selection criteria for the earthquakes could easily be altered to contain more or less options if desired.
 
-![](Earthquake_Challenge/Resources/mapdark.png)
+![](Resources/mapdark.png)
 
 
 ## Summary
